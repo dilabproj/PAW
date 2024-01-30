@@ -29,7 +29,7 @@ Use the downloaded raw data to get the experimental data. There are two files fo
 2. Download the datasets [BCIIV2a](https://bnci-horizon-2020.eu/database/data-sets) and [BCIIV2b](https://www.bbci.de/competition/iv/index.html) from their websites.
 3. Adjust the data path in raw_to_saved_data.py and saved_data_to_sample.py to get the experimental data.
 4. Run the training phase: Change the data_path in the utils.py file and run `training_phase_dd.py`.
-5. Run the Adaptation phase: Change the data_path in the utils.py file and run `adaptation.py`.
+5. Run the Adaptation phase: Change the data_path and in the utils.py and save_model_path, the path of the model trained in training phase, in adaptation.py and run `adaptation.py`.
 
 ### Argparse
 All the default hyper-parameters are the same as the experiments, the common parameters to adjust are as below:
